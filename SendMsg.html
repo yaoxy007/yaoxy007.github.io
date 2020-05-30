@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Leave me a message</title>
+<body>
+    <h1>Please leave me a message:</h1>
+    <br>
+    <br>
+    <form name="msgForm" id="msgForm" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSe4eWAbYOVZGw3wiSKuSfCtKSb4gz9xsDKBMmpq8T3BI8sa3Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+        <label for="msg">Your Name:</label><br>
+        <input type="text" name="entry.1403628565" id="entry.1403628565">
+        <br>
+        <label for email>Your Email Address:</label><br>
+        <input type="text" name="entry.1703702977" id="entry.1703702977">
+        <br>
+        <br>
+        <textarea id="entry.933669604" name="entry.933669604" row="10" col="60">Your Message</textarea>
+        <br>
+        <input type="submit" name="submit">
+    </form>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+</body>
+
+</html>
